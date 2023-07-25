@@ -4,10 +4,10 @@
     "slug": "sound-vibrate-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon_1.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icon_1.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon_1.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.andremugabo.soundvibrateapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon_1.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b1a74832-a856-4e5b-b708-db078df0815e"
+      }
     }
   }
 }
